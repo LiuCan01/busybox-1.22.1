@@ -27,6 +27,12 @@ BuildRequires: uClibc-static
 # libbb/hash_md5_sha.c
 # https://bugzilla.redhat.com/1024549
 Provides: bundled(md5-drepper2)
+Provides: /bin/sed sed
+Provides: hostname
+Provides: which 
+Provides: /bin/awk gawk
+Provides: grep
+Provides: /usr/bin/xz xz
 
 %package petitboot
 Group: System Environment/Shells
