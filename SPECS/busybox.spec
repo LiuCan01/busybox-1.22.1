@@ -30,9 +30,16 @@ Provides: bundled(md5-drepper2)
 Provides: /bin/sed sed
 Provides: hostname
 Provides: which 
+Provides: crontabs /usr/bin/run-parts
+Provides: diffutils
+Provides: vim-minimal
+Provides: net-tools
 Provides: /bin/awk gawk
 Provides: grep
 Provides: /usr/bin/xz xz
+Provides: /sbin/arping iputils
+Provides: procps-ng /sbin/sysctl
+Provides: procps = 3.3.10
 
 %package petitboot
 Group: System Environment/Shells
